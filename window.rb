@@ -7,7 +7,7 @@ class GameWindow < Gosu::Window
   
   def initialize(board)
     super(600, 600, true)
-    self.caption = "Super Fucking Awesome Chess"
+    self.caption = "Awesome Chess"
     @background_image = Gosu::Image.new(self, "./media/600px-Chess_Board.png", true)
     @board = board
     @mouse_clicked = false
